@@ -1,0 +1,17 @@
+.quotes_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.quotes_container span {
+  font-size: 0.8em;
+  font-weight: 100;
+  color: white;
+}
+
+.quotes_container span:nth-child(1) {
+  margin-right: 30px;
+  max-width: 60vw;
+}

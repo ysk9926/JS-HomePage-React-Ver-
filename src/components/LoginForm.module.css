@@ -1,0 +1,60 @@
+.input_text {
+  color: white;
+  margin-top: 10px;
+  font-size: 1em;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_text span {
+  margin-right: 15px;
+  text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.219);
+}
+
+.login {
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  padding-top: 7px;
+  padding-bottom: 5px;
+}
+
+.login:focus {
+  outline: none;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25), 3px 3px 5px rgba(0, 0, 0, 0.22);
+  background-color: rgba(0, 0, 0, 0.164);
+}
+
+.button {
+  border: none;
+  background-color: white;
+  margin-left: 15px;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 1px 7px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.button:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.text {
+  color: white;
+  margin-top: 5px;
+  font-size: 1.8em;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.219);
+}
