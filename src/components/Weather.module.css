@@ -1,0 +1,17 @@
+.weather_li {
+  list-style: none;
+  color: white;
+  padding-right: 50px;
+}
+
+.weather {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.weather_li img {
+  position: absolute;
+  right: 15px;
+  top: 3px;
+}

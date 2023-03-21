@@ -53,9 +53,7 @@ function Quote() {
     const randomNum = Math.floor(Math.random() * list.length);
     setQuotes(list[randomNum]);
     setLoading(false);
-    console.log(loading);
   }, []);
-  console.log(quotes);
   return (
     <div>
       {loading === true ? (
