@@ -4,6 +4,7 @@ import styles from "./Home.module.css";
 import Quote from "../components/Quote";
 import Weather from "../components/Weather";
 import LoginForm from "../components/LoginForm";
+import Todo from "../components/Todo";
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
         </div>
         <div>
           <Quote />
+          <Todo />
         </div>
       </div>
     </div>

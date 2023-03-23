@@ -15,8 +15,6 @@ function Weather() {
   const getPosition = (position) => {
     setLat(position.coords.latitude);
     setLon(position.coords.longitude);
-    console.log(`lat ${lat}`);
-    console.log(`lon ${lon}`);
     count < 7 ? setCount(count + 1) : setLoading(false);
   };
 

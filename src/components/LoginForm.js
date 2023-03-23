@@ -13,7 +13,7 @@ function LoginForm() {
     setUserId(localStorage.getItem(USERNAMEKEY));
     setClick((current) => current + 1);
   };
-  const checkID = localStorage.getItem(USERNAMEKEY, userId);
+  const checkID = localStorage.getItem(USERNAMEKEY);
   useEffect(() => {}, [click]);
   return (
     <div>
